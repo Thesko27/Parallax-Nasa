@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: #000;
+}
+
+#parallax {
+    position: relative;
+    width: 100%;
+    min-height: 900px;
+    overflow: hidden;
+    background: #000;
+}
+
+#parallax .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#parallax .layer.bg {
+    background: url(img/bg.png) no-repeat center;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+#parallax .layer.overlay {
+    background: url(img/overlay.png) no-repeat center;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+#parallax .layer.nave {
+    top: 0px;
+    background: url(img/Vector.png) no-repeat center;
+    background-size: cover;
+    background-position: bottom center;
+    box-shadow: 1px 10px 10px black;
+}
+
+#parallax .layer.bottom {
+    background: url(img/bottom.png) no-repeat center;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+section {
+    padding: 0 100px 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+section h2 {
+    font-size: 30px;
+    color: #fff;
+}
+p {
+    font-size: 15px;
+    color: #fff;
+}
