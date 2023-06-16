@@ -27,7 +27,7 @@ body {
 }
 
 #parallax .layer.bg {
-    background: url(img/bg.png) no-repeat center;
+    background: url(img/bg.jpg) no-repeat center;
     background-size: cover;
     background-position: bottom center;
 }
@@ -73,4 +73,19 @@ section h2 {
 p {
     font-size: 15px;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    #parallax .layer.nave {
+        top: 0px;
+        width: 100%;
+        background: url(img/VectorRes.png) no-repeat center;
+        background-size: cover;
+        background-position: bottom center;
+        box-shadow: 1px 10px 10px black;
+    }
+    p {
+        font-size: 10px;
+        width: 250px;
+    }
 }
