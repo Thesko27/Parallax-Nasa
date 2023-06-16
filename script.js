@@ -1,3 +1,4 @@
+//PARALLAX
 const tl = gsap.timeline({
     scrollTrigger: {
         trigger: "#parallax",

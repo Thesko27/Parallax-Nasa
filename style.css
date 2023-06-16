@@ -75,6 +75,7 @@ p {
     color: #fff;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
     #parallax .layer.nave {
         top: 0px;
