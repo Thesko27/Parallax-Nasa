@@ -66,12 +66,8 @@ section img {
     margin-bottom: 10px;
 }
 
-section h2 {
-    font-size: 30px;
-    color: #fff;
-}
-p {
-    font-size: 15px;
+section p {
+    font-size: 20px;
     color: #fff;
 }
 
@@ -85,8 +81,8 @@ p {
         background-position: bottom center;
         box-shadow: 1px 10px 10px black;
     }
-    p {
+    section p {
         font-size: 10px;
-        width: 250px;
+        color: #fff;
     }
 }
